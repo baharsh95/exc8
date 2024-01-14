@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+  border-top: 20px solid black;
+  margin-right: 170px;
+  margin-left: 170px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+
+nav > a:hover {
+  color: rgb(12, 127, 228);
+}
+nav > a:active {
+  color: #919191;
+  background-color: #444;
+}
+
+nav {
+  margin-left: 4px;
+}
+.main-header {
+  background-color: gainsboro;
+  padding: 20px 25px;
+}
+h1 {
+  font-size: 35px;
+  color: rgb(12, 127, 228);
+  font-style: oblique;
+  display: inline-block;
+}
+h2 {
+  margin-left: 10px;
+  color: rgb(12, 127, 228);
+  margin-inline: 20px;
+}
+img {
+  margin-left: 10px;
+  margin-inline: 30px;
+}
+.main-sec {
+  margin-top: 20px;
+  display: inline-block;
+  margin-right: 100px;
+}
+li {
+  margin-inline: 20px;
+  margin-top: 50px;
+}
+p {
+  margin-inline: 20px;
+}
+.related-border {
+  border-bottom: 10px solid black;
+  border-top: 10px solid black;
+}
+aside li:last-child {
+}
+aside {
+  padding: 30px;
+}
+h4 {
+  text-align: center;
+  color: rgb(12, 127, 228);
+}
+li.a {
+  line-height: 200%;
+}
+article {
+  border-top: 10px solid black;
+}
+footer {
+  margin-top: 10px;
+}
