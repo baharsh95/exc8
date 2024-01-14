@@ -1,0 +1,119 @@
+/*
+Hexadecimal 0-9 A-F
+
+red     green   blue    opacity
+00      00      00      00
+
+RGB 0-255
+rgb( red, green, blue)
+rgb(33, 100, 248)
+
+RGBA 0-255 - 0-1
+rgba (red, green, blue, alpha)
+rgba (2, 44, 100, 0.3)
+
+HSL Hue     Saturation Lightness
+    0-360   0%-100%     %0-%100
+    red
+    0-120 
+    green
+    120-240
+    blue
+    240-360
+
+HSLA    Hue     Saturation  Lightness  Alpha  
+        0-360   0%-100%     %0-%100     0.0-1.0
+        red
+        0-120 
+        green
+        120-240
+        blue
+        240-360
+*/
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(./Roboto-Regular.ttf);
+}
+
+:root {
+  --primary-color: #096e21;
+  --secondary-color: #15ae4364;
+  --warning-color: red;
+  --log-color: rgb(132, 0, 255);
+  --primary-bg-color: rgba(14, 248, 186, 0.438);
+  --secondary-bg-color: HSL(120, 90%, 50%);
+  --warning-bg-color: HSLA(300, 100%, 90%, 0.333);
+}
+
+html {
+  font-size: 13px;
+}
+
+* {
+  font-family: Roboto-Regular;
+  /* font-size: 13px; */
+}
+
+.blog-title {
+  color: var(--primary-color);
+}
+
+.article-title {
+  color: var(--primary-color);
+}
+
+/* p {
+  font-size: 18px;
+} */
+
+.main-article {
+  font-size: 18px;
+}
+
+.main-paragraph {
+  font-size: 1em;
+}
+/*
+em based on parrent
+1.5 * 16px = 24px
+*/
+
+.paragraph-secondary {
+  font-size: 1.5rem;
+}
+
+/*
+rem based on root
+1.5 * 16px = 24px
+*/
+
+.p-third {
+  font-size: 150%;
+}
+
+/*
+percent based on parrent
+150% * 16px = 24px
+*/
+
+.p-forth {
+  /* font-size: 14pt; */
+  /*point: 1/72 inch */
+  /*pixcel: (96/72)* point = ? */
+  /*pixcel: 1.333333333333 = 1 point */
+
+  /* font-size: 3vw; */
+  /* font-size: 100vw; */
+  /*
+  vw
+  viewpoint width: 1%;
+  vh
+  viewpoint height:1%;
+  */
+}
+
+/* p {
+  color: Background;
+  background-color: WindowText;
+} */
